@@ -73,10 +73,10 @@ const calculateRate = (mailType, weight) => {
 		// Letters (Metered)
 		case 'Letters_Metered':
 			getRate = {
-				1:	0.51,
-				2:	0.71,
-				3:	0.91,
-				3.5:	1.11
+				1: 0.51,
+				2: 0.71,
+				3: 0.91,
+				3.5: 1.11
 			}
 			break;
 
